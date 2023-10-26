@@ -1,0 +1,29 @@
+artigo.txt
+# Arquivos e diretórios a serem ignorados pelo Git
+
+# Arquivos de compilação
+*.pyc
+__pycache__/
+
+# Diretório virtualenv (caso você esteja usando um ambiente virtual Python)
+venv/
+env/
+
+# Logs e arquivos de saída
+logs/
+*.log
+
+# Arquivos de configuração locais
+*.ini
+*.conf
+
+# Dependências e bibliotecas de terceiros (geralmente, você não deve incluí-las no controle de versão)
+/lib/
+/node_modules/
+
+# Arquivos de compilação de linguagens (por exemplo, Java, C++)
+/out/
+
+# Arquivos de dados sensíveis (não inclua senhas, chaves de acesso, etc.)
+config.json
+secrets.yaml
