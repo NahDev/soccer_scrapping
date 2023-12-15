@@ -18,3 +18,4 @@ df_final = pd.merge(df1, df2, on='TIME')
 # Exibindo o DataFrame resultante
 print(df_final)
 df_final.to_csv('dados/combinado.csv', index=False)
+git remote add origin https://github.com/NahDev/soccer_scrapping.git
